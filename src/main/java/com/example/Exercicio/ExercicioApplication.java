@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @SpringBootApplication(scanBasePackages= "com.example")
 public class ExercicioApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws 	Throwable {
 		SpringApplication.run(ExercicioApplication.class, args);
 		
 	}
